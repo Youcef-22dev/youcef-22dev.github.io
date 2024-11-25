@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to bottom , rgb(0, 0, 0)60%, transparent);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 20px;
+    
+   
+}
+.navbar ul li{
+    display: inline;
+    margin-left: 50px;
+    text-transform: capitalize;
+    margin-right: 50px;
+    
+ }
+ .navbar ul li a{
+    text-decoration: none;
+    border-bottom: 0px solid aqua;
+    
+ }
+ .navbar ul li a:hover{
+    color: aqua;
+    font-size: 24px;
+    transition: 0.4s;
+    border-bottom: 2px solid aqua;
+
+ }
+ .navbar h2{
+    margin-left: 50px;
+    text-transform: capitalize;
+    cursor: pointer;
+ }
+ .navbar span{
+    color: aqua;
+ }
+ .mean{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 100px;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ .stule{
+   min-width: 300px ;
+
+ }
+ .prf{
+ 
+     width: 500px;
+     height: 500px;
+     border-radius: 250px;
+     box-shadow: 0 0 20px 10px aqua;
+    
+ }
+ .mean h1{
+    font-size: 45px;
+ }
+ .mean h3{
+    text-transform: capitalize;
+ }
+ .mean h3 span{
+    color: aqua;
+    
+ }
+ .mean p{
+    margin-top: 40px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+ }
+ .mean a{
+    border: 1px aqua solid;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+ }
+ .mean a:hover{
+    background-color: transparent;
+    color: aqua;
+ }
+ .about{
+   width: 100%;
+    height: 100vh;
+   position: relative;
+   background-image: linear-gradient(to bottom , rgb(0, 0, 0)60%, transparent);
+ }
+ .about h1 , h2{
+   text-transform: capitalize;
+   text-align: center;
+   margin-top: 30px;
+   padding-top: 20px;
+ }
+ .about h1 a , .port h1 a{
+   text-decoration: none;
+   color: aqua;
+   border-bottom: 2px solid aquamarine;
+ }
+ .ab{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 100px;
+   flex-wrap: wrap;
+ }
+
+.page1{
+
+   height: 300px;
+   width: 400px;
+   border-radius: 20px;
+   border: 2px solid white;
+   min-width: 300px;
+}
+.about p{
+
+   border: 2px solid transparent;
+   color: aqua;
+   background-color:transparent;
+   border-radius: 20px;
+   padding: 20px 15px;
+   letter-spacing: 1.5px;
+   line-height: 30px;
+}
+ .ser{
+   width: 100%;
+   min-height: 100vh;
+   background-image: linear-gradient(to bottom , rgb(0, 0, 0)60%, transparent);
+ }
+ .ser h1 , .cnt h1 {
+   text-transform: capitalize;
+   text-align: center;
+   margin-top: 30px;
+   padding-top: 20px;
+ }
+
+.ser h1 a , .cnt h1 a {
+   text-decoration: none;
+   color: rgb(66, 110, 110);
+   border-bottom: 2px solid aquamarine;
+}
+.ser span{
+   font-size: 70px;
+   color: aqua;
+}
+.ser p , .cnt p{
+   text-align: center;
+   padding-top: 50px;
+   letter-spacing: 2px;
+   line-height: 25px;
+   padding-bottom: 35px;
+}
+.ser .card{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 50px;
+}
+.ser .card1{
+   border: 1px white solid;
+   width: 200px;
+   height: 250px;
+   text-align: center;
+   border-radius: 10px;
+}
+.ser .card2{
+   border: 1px white solid;
+   width: 200px;
+   height: 250px;
+   text-align: center;
+   border-radius: 10px;
+}
+.ser .card3{
+   border: 1px white solid;
+   width: 200px; 
+   height: 250px;
+   text-align: center;
+   border-radius: 10px;
+}
+.ser .card1:hover{
+   cursor: pointer;
+   width: 250px;
+   height: 300px;
+   
+}
+ .port{
+   width: 100%;
+   min-height: 100vh;
+   background-image: linear-gradient(to bottom , rgb(0, 0, 0)60%, transparent);
+ }
+ .port h1 {
+   text-transform: capitalize;
+   text-align: center;
+   margin-top: 30px;
+   padding-top: 20px;
+ }
+
+ .cnt{
+   width: 100%;
+   min-height: 100vh;
+   background-image: linear-gradient(to bottom , rgb(0, 0, 0)60%, transparent);
+ }
+ .login{
+   border: 1px solid white;
+   width: 350px;
+   height: 450px;
+   color: white;
+   border-radius: 20px;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+   margin: auto;
+   
+   
+ }
+     
+form{
+   display: block;
+   box-sizing: border-box;
+   padding: 40px;
+   width: 100%;
+   height: 100%;
+   flex-direction: column;
+   display: flex;
+   gap: 5px;
+
+}
+label{
+   color: rgba(255, 255, 255, 0.8);
+   text-transform: uppercase;
+   font-size: 12px;
+   letter-spacing: 2px;
+   padding-left: 10px;
+}
+input{
+   background: rgba(255, 255, 255, 0.8);
+   height: 40px;
+   line-height: 40px;
+   border-radius: 10px;
+   padding: 0px 20px;
+   border: none;
+   margin-bottom: 15px;
+   color: black;
+   font-size: 15px;
+  
+}
+textarea{
+   background: rgba(255, 255, 255, 0.8);
+   height: 40px;
+   line-height: 40px;
+   border-radius: 20px;
+   padding: 0px 20px;
+   border: none;
+   margin-bottom: 20px;
+   color: black;
+   min-height: 150px;
+   max-width: 270px;
+   font-size: 15px;
+   
+}
+.submit{
+background: rgba(45, 126, 231);
+height: 40px;
+line-height: 40px;
+cursor: pointer;
+border-radius:40px;
+border: none;
+margin: 10px 0px;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+color: white;
+font-size: 15px;
+text-transform: uppercase;
+}
